@@ -113,9 +113,29 @@ footer p {
 	margin-bottom: 20px;
 }
 
+.banner {
+	background: #7f5af0;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.tools {
+	background: #2cb67d;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
 .category {
 	text-align: center;
-	color: #7f5af0;
+	color: #fffffe;
 	margin: 30px;
 }
 
@@ -155,6 +175,7 @@ footer p {
 
 	.cards a {
 		max-width: 300px;
+		height: 320px;
 		margin: 20px;
 	}
 }
