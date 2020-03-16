@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	outline: none;
 }
 
 * {
@@ -122,14 +123,27 @@ button {
 	font-size: 1.3em;
 	color: #fffffe;
 	outline: none;
+	cursor: pointer;
 }
 
 .tutorialsButton {
 	background: #7f5af0;
 }
 
+.tutorialsButton:hover {
+	background: #6c4bce;
+}
+
 .toolsButton {
 	background: #2cb67d;
+}
+
+.toolsButton:hover {
+	background: #27a06d;
+}
+
+button:focus {
+	outline: none;
 }
 
 .bannerContainer {
@@ -138,7 +152,8 @@ button {
 }
 
 .banner {
-	background: #7f5af0;
+	background: none;
+	border: 2px solid #7f5af0;
 	height: 50px;
 	display: flex;
 	width: 85%;
@@ -151,7 +166,7 @@ button {
 }
 
 #tools {
-	background: #2cb67d;
+	border: 2px solid #27a06d;
 }
 
 .category {
