@@ -14,6 +14,7 @@ a {
 
 html {
 	height: 100%;
+	box-sizing: border-box;
 }
 
 body {
@@ -23,6 +24,7 @@ body {
 	margin: 0;
 	color: white;
 	height: 100%;
+	min-height: 100%;
 }
 
 .topnav {
@@ -68,7 +70,7 @@ h1 {
 
 .homepage {
 	background-color: #16161a;
-	height: 80%;
+	height: 100%;
 	display: flex;
 	flex-direction: column;
 }
@@ -85,20 +87,6 @@ h1 {
 	margin: 6%;
 }
 
-footer {
-	background-color: #242629;
-	height: 100px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin-top: 20px;
-}
-
-footer p {
-	font-size: 1.5em;
-	display: flex;
-}
-
 .cards {
 	display: flex;
 	flex-direction: column;
@@ -113,24 +101,57 @@ footer p {
 	margin-bottom: 20px;
 }
 
+.buttons {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;
+	margin-top: 50px;
+}
+
+.categoryLink {
+	width: 40%;
+	margin: 2%;
+}
+
+button {
+	border: none;
+	height: 50px;
+	width: 100%;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-size: 1.3em;
+	color: #fffffe;
+	outline: none;
+}
+
+.tutorialsButton {
+	background: #7f5af0;
+}
+
+.toolsButton {
+	background: #2cb67d;
+}
+
+.bannerContainer {
+	display: flex;
+	justify-content: center;
+}
+
 .banner {
 	background: #7f5af0;
 	height: 50px;
 	display: flex;
+	width: 85%;
 	justify-content: center;
 	align-items: center;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.tools {
+#tools {
 	background: #2cb67d;
-	height: 50px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin-top: 20px;
-	margin-bottom: 20px;
 }
 
 .category {
@@ -166,11 +187,37 @@ footer p {
 	margin-top: 10px;
 }
 
+footer {
+	background-color: #242629;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+footer p {
+	font-size: 1.5em;
+	display: flex;
+}
+
 @media (min-width: 680px) {
 	.cards {
 		flex-direction: row;
 		flex-wrap: wrap;
 		justify-content: center;
+	}
+
+	.categoryLink {
+		width: 300px;
+	}
+
+	.categoryLink {
+		margin: 20px;
+	}
+
+	.banner {
+		width: 640px;
 	}
 
 	.cards a {
