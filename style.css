@@ -240,4 +240,37 @@ footer p {
 		height: 320px;
 		margin: 20px;
 	}
+
+	#homeImage {
+		display: none;
+	}
+
+	.tiles {
+		display: flex;
+		justify-content: center;
+	}
+
+
+	.tileAnchor {
+		margin: 20px;
+	}
+
+	.tile {
+		display: flex;
+		height: 250px;
+		width: 250px;
+		justify-content: center;
+		align-items: center;
+		font-size: 45px;
+		background-color: black;
+		border-radius: 50px;
+	}
+
+	.tile:hover {
+		background-color: lime;
+	}
+
+	.topnav {
+		display: none;
+	}
 }
