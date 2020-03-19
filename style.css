@@ -216,6 +216,10 @@ footer p {
 	display: flex;
 }
 
+.desktopNav button {
+	display: none;
+}
+
 @media (min-width: 680px) {
 	.cards {
 		flex-direction: row;
@@ -267,10 +271,34 @@ footer p {
 	}
 
 	.tile:hover {
-		background-color: lime;
+		background-color: greenyellow;
 	}
 
 	.topnav {
 		display: none;
+	}
+
+	.desktopNav {
+		display: flex;
+		justify-content: flex-end;
+		height: 70px;		
+	}
+
+	.desktopNav a {
+		margin: 15px;
+	}
+
+	.desktopNav button {
+		display: flex;
+		background-color: grey;
+		color: yellow;
+		border: darkgrey solid 2px;
+		border-radius: 8px;
+		height: 100%;
+		width: 100%;
+	}
+	.desktopNav button:hover {
+		background-color: black;
+		padding: 25px;
 	}
 }
