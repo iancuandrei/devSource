@@ -271,7 +271,7 @@ footer p {
 	}
 
 	.tile:hover {
-		background-color: greenyellow;
+		background-color: #2cb67d;
 	}
 
 	.topnav {
@@ -285,20 +285,25 @@ footer p {
 	}
 
 	.desktopNav a {
-		margin: 15px;
+		padding-top: 15px;
+		padding-inline-end: 10px;
 	}
 
 	.desktopNav button {
 		display: flex;
-		background-color: grey;
-		color: yellow;
-		border: darkgrey solid 2px;
-		border-radius: 8px;
-		height: 100%;
+		background-color: #6c4bce;
+		color: white;
+		border: white solid 1px;
+		border-radius: 5px;
+		height: 70%;
 		width: 100%;
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 	.desktopNav button:hover {
-		background-color: black;
-		padding: 25px;
+		height: 100%;
+		padding-left: 15px;
+		padding-right: 15px;
+		background-color: #2cb67d;
 	}
 }
