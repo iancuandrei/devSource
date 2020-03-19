@@ -254,7 +254,6 @@ footer p {
 		justify-content: center;
 	}
 
-
 	.tileAnchor {
 		margin: 20px;
 	}
@@ -281,7 +280,7 @@ footer p {
 	.desktopNav {
 		display: flex;
 		justify-content: flex-end;
-		height: 70px;		
+		height: 70px;
 	}
 
 	.desktopNav a {
