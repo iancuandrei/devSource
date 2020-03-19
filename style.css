@@ -252,10 +252,15 @@ footer p {
 	.tiles {
 		display: flex;
 		justify-content: center;
+		flex-wrap: wrap;
+		padding-left: 20%;
+		padding-right: 20%;
 	}
 
 	.tileAnchor {
-		margin: 20px;
+		display: flex;
+		margin: 10px;
+		flex-direction: column;
 	}
 
 	.tile {
@@ -267,6 +272,7 @@ footer p {
 		font-size: 45px;
 		background-color: black;
 		border-radius: 50px;
+		flex-direction: column;
 	}
 
 	.tile:hover {
@@ -279,8 +285,9 @@ footer p {
 
 	.desktopNav {
 		display: flex;
-		justify-content: flex-end;
-		height: 70px;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		height: 100px;
 	}
 
 	.desktopNav a {
@@ -292,9 +299,8 @@ footer p {
 		display: flex;
 		background-color: #6c4bce;
 		color: white;
-		border: white solid 1px;
-		border-radius: 5px;
-		height: 70%;
+		border-radius: 3px;
+		height: 30px;
 		width: 100%;
 		padding-left: 10px;
 		padding-right: 10px;
