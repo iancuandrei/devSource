@@ -71,15 +71,8 @@ h1 {
 
 .homepage {
 	background-color: #16161a;
-
 	display: flex;
 	flex-direction: column;
-}
-
-.homepage h1 {
-	text-align: center;
-	margin-top: 10px;
-	margin-bottom: 50px;
 }
 
 .cards {
@@ -214,6 +207,55 @@ footer p {
 	display: none;
 }
 
+.logoDescription {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.logo {
+	width: 200px;
+	align-self: center;
+}
+
+.tiles {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 20px;
+}
+
+.tileAnchor {
+	display: flex;
+	margin: 10px;
+	flex-direction: column;
+}
+
+.tile {
+	display: flex;
+	height: 250px;
+	width: 250px;
+	margin: 5px;
+	justify-content: center;
+	align-items: center;
+	font-size: 2em;
+	background-color: #242629;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	color: white;
+	flex-direction: column;
+}
+
+.tile:hover {
+	background: #35373b;
+}
+
+.logos {
+	height: auto;
+	width: 150px;
+	margin: 6%;
+}
+
 @media (min-width: 680px) {
 	.cards {
 		flex-direction: row;
@@ -243,38 +285,6 @@ footer p {
 		display: none;
 	}
 
-	.tiles {
-		display: flex;
-		justify-content: center;
-		flex-wrap: wrap;
-		padding: 20px;
-	}
-
-	.tileAnchor {
-		display: flex;
-		margin: 10px;
-		flex-direction: column;
-	}
-
-	.tile {
-		display: flex;
-		height: 250px;
-		width: 250px;
-		margin: 5px;
-		justify-content: center;
-		align-items: center;
-		font-size: 2em;
-		background-color: #242629;
-		border-radius: 5px;
-		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-		color: white;
-		flex-direction: column;
-	}
-
-	.tile:hover {
-		background: #35373b;
-	}
-
 	.topnav {
 		display: none;
 	}
@@ -293,16 +303,26 @@ footer p {
 		margin: 5px;
 	}
 
-	.logo {
-		height: auto;
-		width: 200px;
-		align-self: center;
+	.logoDescription {
+		display: flex;
+		padding-left: 6%;
+		flex-direction: column;
 	}
 
-	.logos {
+	.logoDescription {
+		display: flex;
+	}
+
+	.logoDescription h1 {
+		align-self: center;
+		margin: 0;
+		margin-bottom: 50px;
+	}
+
+	.logo {
+		align-self: flex-start;
 		height: auto;
-		width: 150px;
-		margin: 6%;
+		width: 200px;
 	}
 
 	.desktopNav button {
