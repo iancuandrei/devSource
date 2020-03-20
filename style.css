@@ -71,14 +71,14 @@ h1 {
 
 .homepage {
 	background-color: #16161a;
-	height: 100%;
+
 	display: flex;
 	flex-direction: column;
 }
 
 .homepage h1 {
 	text-align: center;
-	margin-top: 100px;
+	margin-top: 50px;
 }
 
 .homepage img {
@@ -253,8 +253,7 @@ footer p {
 		display: flex;
 		justify-content: center;
 		flex-wrap: wrap;
-		padding-left: 20%;
-		padding-right: 20%;
+		padding: 20px;
 	}
 
 	.tileAnchor {
@@ -267,16 +266,19 @@ footer p {
 		display: flex;
 		height: 250px;
 		width: 250px;
+		margin: 5px;
 		justify-content: center;
 		align-items: center;
-		font-size: 45px;
-		background-color: black;
-		border-radius: 50px;
+		font-size: 2em;
+		background-color: #242629;
+		border-radius: 5px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		color: white;
 		flex-direction: column;
 	}
 
 	.tile:hover {
-		background-color: #2cb67d;
+		background: #35373b;
 	}
 
 	.topnav {
@@ -287,28 +289,36 @@ footer p {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-around;
+		align-items: center;
 		height: 100px;
+		padding: 10px;
 	}
 
 	.desktopNav a {
-		padding-top: 15px;
-		padding-inline-end: 10px;
+		height: 45px;
+		margin: 5px;
+	}
+
+	.logo {
+		height: auto;
+		width: 200px;
+		margin: none;
+		align-self: center;
 	}
 
 	.desktopNav button {
 		display: flex;
+		justify-content: center;
+		align-items: center;
 		background-color: #6c4bce;
 		color: white;
 		border-radius: 3px;
-		height: 30px;
-		width: 100%;
-		padding-left: 10px;
-		padding-right: 10px;
-	}
-	.desktopNav button:hover {
-		height: 100%;
+		height: 45px;
 		padding-left: 15px;
 		padding-right: 15px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+	.desktopNav button:hover {
 		background-color: #2cb67d;
 	}
 }
