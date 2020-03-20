@@ -305,7 +305,6 @@ footer p {
 
 	.logoDescription {
 		display: flex;
-		padding-left: 6%;
 		flex-direction: column;
 	}
 
@@ -323,6 +322,8 @@ footer p {
 		align-self: flex-start;
 		height: auto;
 		width: 200px;
+		margin-left: 6%;
+		margin-top: 2%;
 	}
 
 	.desktopNav button {
