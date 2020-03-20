@@ -78,14 +78,8 @@ h1 {
 
 .homepage h1 {
 	text-align: center;
-	margin-top: 50px;
-}
-
-.homepage img {
-	height: 60%;
-	text-align: center;
-	margin-top: 60px;
-	margin: 6%;
+	margin-top: 10px;
+	margin-bottom: 50px;
 }
 
 .cards {
@@ -302,15 +296,20 @@ footer p {
 	.logo {
 		height: auto;
 		width: 200px;
-		margin: none;
 		align-self: center;
+	}
+
+	.logos {
+		height: auto;
+		width: 150px;
+		margin: 6%;
 	}
 
 	.desktopNav button {
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		background-color: #6c4bce;
+		background-color: #242629;
 		color: white;
 		border-radius: 3px;
 		height: 45px;
@@ -319,6 +318,6 @@ footer p {
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	}
 	.desktopNav button:hover {
-		background-color: #2cb67d;
+		background-color: #35373b;
 	}
 }
