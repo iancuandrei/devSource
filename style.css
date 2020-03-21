@@ -233,12 +233,13 @@ footer p {
 	display: flex;
 	margin: 10px;
 	flex-direction: column;
+	width: 85%;
 }
 
 .tile {
 	display: flex;
 	height: 250px;
-	width: 250px;
+	width: 100%;
 	margin: 5px;
 	justify-content: center;
 	align-items: center;
@@ -342,5 +343,9 @@ footer p {
 	}
 	.desktopNav button:hover {
 		background-color: #35373b;
+	}
+
+	.tileAnchor {
+		width: 250px;
 	}
 }
