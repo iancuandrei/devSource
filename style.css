@@ -75,6 +75,10 @@ h1 {
 	flex-direction: column;
 }
 
+.homepage h1 {
+	font-size: 1.3em;
+}
+
 .cards {
 	display: flex;
 	flex-direction: column;
@@ -214,7 +218,7 @@ footer p {
 }
 
 .logo {
-	width: 200px;
+	width: 150px;
 	align-self: center;
 }
 
@@ -305,25 +309,23 @@ footer p {
 
 	.logoDescription {
 		display: flex;
-		flex-direction: column;
-	}
-
-	.logoDescription {
-		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
 	}
 
 	.logoDescription h1 {
 		align-self: center;
 		margin: 0;
 		margin-bottom: 50px;
+		margin-top: 130px;
+		font-size: 2em;
 	}
 
 	.logo {
-		align-self: flex-start;
 		height: auto;
 		width: 200px;
-		margin-left: 6%;
-		margin-top: 2%;
+		margin-left: 5%;
+		margin-right: 13%;
 	}
 
 	.desktopNav button {
