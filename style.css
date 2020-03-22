@@ -30,12 +30,13 @@ body {
 
 .topnav {
 	overflow: hidden;
-	background: #242629;
+	background: #16161a;
 	position: relative;
 }
 
 #myLinks {
 	display: none;
+	margin-bottom: 50px;
 }
 
 .topnav a {
@@ -75,8 +76,13 @@ h1 {
 	flex-direction: column;
 }
 
+.grey {
+	background: #19191d;
+}
+
 .homepage h1 {
 	font-size: 1.5em;
+	margin-top: 0;
 }
 
 .cards {
@@ -218,8 +224,7 @@ footer p {
 }
 
 .logo {
-	width: 150px;
-	align-self: center;
+	display: none;
 }
 
 .tiles {
@@ -334,6 +339,7 @@ footer p {
 	}
 
 	.logo {
+		display: block;
 		height: auto;
 		width: 200px;
 		margin-left: 5%;
