@@ -226,7 +226,6 @@ footer p {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	padding: 20px;
 }
 
 .tileAnchor {
@@ -241,7 +240,7 @@ footer p {
 	height: 250px;
 	width: 100%;
 	margin: 5px;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
 	font-size: 2em;
 	background-color: #242629;
@@ -249,6 +248,7 @@ footer p {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	color: white;
 	flex-direction: column;
+	padding: 20px;
 }
 
 .tile:hover {
@@ -258,7 +258,18 @@ footer p {
 .logos {
 	height: auto;
 	width: 150px;
-	margin: 6%;
+}
+
+.transparentBg {
+	display: flex;
+	justify-content: center;
+
+	width: 150px;
+	height: 150px;
+}
+
+.fit {
+	width: 132px;
 }
 
 @media (min-width: 680px) {
@@ -347,5 +358,6 @@ footer p {
 
 	.tileAnchor {
 		width: 250px;
+		margin: 20px;
 	}
 }
