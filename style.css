@@ -368,3 +368,9 @@ footer p {
 		margin: 20px;
 	}
 }
+
+@media (min-width: 680px) and (max-width: 870px) {
+	.desktopNav {
+		height: 175px;
+	}
+}
