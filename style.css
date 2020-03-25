@@ -282,11 +282,11 @@ footer p {
 	margin-top: 50px;
 }
 
-.aboutPage{
+.aboutPage {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	
+
 	padding: 6%;
 }
 
@@ -295,14 +295,18 @@ p {
 }
 
 .aboutPage .description {
-	width: 50%;
+	width: 90%;
 	margin-bottom: 20px;
-	text-align: center;
-	
+
+	font-size: 1.2em;
 }
 
 .aboutPage h2 {
 	margin: 30px;
+}
+
+h2 {
+	line-height: 0.9em;
 }
 
 #wildSchool {
@@ -315,11 +319,19 @@ p {
 	color: gold;
 }
 
+.tiles h4 {
+	margin-top: 20px;
+}
+
 @media (min-width: 680px) {
 	.cards {
 		flex-direction: row;
 		flex-wrap: wrap;
 		justify-content: center;
+	}
+
+	.aboutPage .description {
+		width: 50%;
 	}
 
 	.categoryLink {
@@ -409,5 +421,9 @@ p {
 @media (min-width: 680px) and (max-width: 870px) {
 	.desktopNav {
 		height: 175px;
+	}
+
+	.aboutPage .description {
+		width: 80%;
 	}
 }
