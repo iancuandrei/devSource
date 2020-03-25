@@ -21,7 +21,7 @@ html {
 
 body {
 	background: #16161a;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Catamaran;
 	padding: 0;
 	margin: 0;
 	color: white;
@@ -280,6 +280,39 @@ footer p {
 
 .github {
 	margin-top: 50px;
+}
+
+.aboutPage{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	
+	padding: 6%;
+}
+
+p {
+	line-height: 1.2em;
+}
+
+.aboutPage .description {
+	width: 50%;
+	margin-bottom: 20px;
+	text-align: center;
+	
+}
+
+.aboutPage h2 {
+	margin: 30px;
+}
+
+#wildSchool {
+	text-decoration: none;
+	color: #fffffe;
+	cursor: pointer;
+}
+
+#wildSchool:hover {
+	color: gold;
 }
 
 @media (min-width: 680px) {
