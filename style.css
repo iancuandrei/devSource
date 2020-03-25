@@ -278,6 +278,10 @@ footer p {
 	width: 132px;
 }
 
+.github {
+	margin-top: 50px;
+}
+
 @media (min-width: 680px) {
 	.cards {
 		flex-direction: row;
