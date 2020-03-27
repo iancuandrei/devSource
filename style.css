@@ -21,7 +21,8 @@ html {
 
 body {
 	background: #16161a;
-	font-family: Catamaran;
+	font-family: Catamaran, Georgia, "Times New Roman", Times, serif;
+
 	padding: 0;
 	margin: 0;
 	color: white;
